@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "trakcs_sdk"
+version = "0.1.0"
+description = ""
+authors = ["matifonseca <matias.fonseca@mercadolibre.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.27.1"
+requests-mock = "^1.9.3"
+behave = "^1.2.6"
+coverage = "^6.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
